@@ -1,4 +1,4 @@
-Step to create SAP HANA Projet
+Step to create SAP HANA Projet - Microservice to create table, view and role
 
 1. Create new SAP HANA Project from template
 2. Create table
