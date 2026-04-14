@@ -1,0 +1,19 @@
+_schema-version: "2.1"
+ID: btp_db_homecentral
+version: 0.0.1
+modules:
+- name: btp_d_homecentral_mod
+  type: hdb
+  path: db
+  requires:
+  - name: hdi_home_central
+    properties:
+      TARGET_CONTAINER: ~{hdi-container-name}
+resources:
+- name: hdi_home_central
+  type: com.sap.xs.hdi-container
+  parameters:
+    config:
+      schema: BTP_DB_HC
+  properties:
+    hdi-container-name: ${service-name}

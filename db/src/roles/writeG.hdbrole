@@ -1,0 +1,12 @@
+{
+    "role":{
+        "name": "BTP_DB_HC::Write#",
+        "object_privileges": [
+            {
+                "name": "HOME_DBVIEW.V_V1_PERSON",
+                "type": "TABLE",
+                "privileges_with_grant_option": ["SELECT", "INSERT", "UPDATE", "DELETE"]
+            }
+        ]
+    }
+}
